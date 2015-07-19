@@ -1,11 +1,15 @@
 {
-  "url": "http://example.com/",
-  "overdue": "1M",
-  "afterSeen": {
-    "travis": {
-      "config": {
-        "script": "echo BAR"
-      }
-    }
-  }
+   "checkpoints": {
+      "PROD": {
+         "url": "http://example.com/",
+         "overdue": "1M",
+         "afterSeen": {
+            "travis": {
+               "config": {
+                  "script": "echo BAR"
+               }
+            }
+         }
+      }
+   }
 }
